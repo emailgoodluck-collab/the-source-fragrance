@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./cart.css" />
   </head>
   <body>
     <div class="grain" aria-hidden="true"></div>
@@ -19,7 +20,7 @@
         <a href="#concierge">Scent Tour</a>
         <a href="#how-it-works">How it works</a>
       </nav>
-      <button class="inquiry-link" data-open-inquiry>My inquiry <span id="inquiry-count">0</span></button>
+      <button class="inquiry-link" data-open-cart>My cart <span id="cart-count">0</span></button>
     </header>
 
     <main id="top">
@@ -88,6 +89,14 @@
       <p class="eyebrow">The source desk</p><h2>Tell us what you<br /><em>are looking for.</em></h2><p class="dialog-copy">Your request is prepared for the business inquiry email. Stock, exact price, and payment instructions are confirmed before payment.</p>
       <form id="inquiry-form"><label>Name<input name="name" required autocomplete="name" /></label><label>Email or WhatsApp<input name="contact" required /></label><label>Your request<textarea name="request" required placeholder="A scent you have in mind, a mood, an occasion, or a product from the collection..."></textarea></label><button class="button button-dark" type="submit">Prepare inquiry <span>↗</span></button></form>
       <p class="form-status" id="form-status"></p>
+    </dialog>
+    <dialog id="cart-dialog">
+      <button class="close-dialog" aria-label="Close cart" data-close-cart>×</button>
+      <p class="eyebrow">The Source cart</p><h2>Your selected<br /><em>fragrance.</em></h2>
+      <p class="dialog-copy">Keep browsing and add more bottles. Submit your selection once you are ready; stock and exact price are confirmed before payment.</p>
+      <div class="cart-items" id="cart-items"><p>Your cart is currently empty.</p></div>
+      <form id="checkout-form"><label>Name<input name="name" required autocomplete="name" /></label><label>Email or WhatsApp<input name="contact" required /></label><label>Delivery city<input name="city" required placeholder="e.g. Warri" /></label><button class="button button-dark" type="submit">Submit selection <span>↗</span></button></form>
+      <p class="form-status" id="checkout-status"></p>
     </dialog>
     <script src="./script.js"></script>
   </body>
