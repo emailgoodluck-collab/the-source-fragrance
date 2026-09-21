@@ -11,3 +11,5 @@
 .product-card-image:hover .product-image{transform:scale(1.04)}
 .product-card-image .product-meta{background:linear-gradient(0deg,rgba(245,241,232,.98),rgba(245,241,232,.84),transparent);margin:-21px;padding:65px 21px 21px}
 .product-card-image .price{font:600 13px "DM Mono",monospace}
+.product-card-image .product-notes{margin:0 0 5px;font:500 10px/1.35 "DM Mono",monospace;text-transform:uppercase;letter-spacing:.35px;color:var(--wine)}
+.product-card-image .product-bio{margin:0 0 12px;font-size:12px;line-height:1.38;color:#566057}

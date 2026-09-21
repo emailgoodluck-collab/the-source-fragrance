@@ -13,3 +13,12 @@ The collection uses product imagery sourced on 2026-09-21 from the listed produc
 - Afnan 9PM: https://www.perfumenz.co.nz/products/9pm-by-afnan-100ml-edp-for-men
 - Lattafa Nebras: https://www.boozyshop.nl/products/lattafa-nebras-eau-de-parfum
 - Lattafa Maahir: https://marabika.lt/en/LATTAFA-maahir-100ml
+- Afnan Supremacy in Oud: https://fragarabic.com/products/supremacy-in-oud-afnan-eau-de-parfum-unisex
+- Afnan 9PM Rebel: https://hiddensamples.com/products/9pm-rebel
+- Afnan Supremacy Not Only Intense: https://us.afnan.com/products/supremacy-not-only-intense
+- Lattafa Badee Al Oud For Glory: https://www.lattafa-usa.com/products/badee-al-oud-glory
+- Gentleman Givenchy: https://www.givenchybeauty.com/en/sk/p/gentleman-givenchy-F10100026.html
+- Lattafa Khamrah: https://lattafa.com/product/khamrah/
+- Valentino Uomo Born in Roma: https://www.valentino.com/en-us/product-born-in-roma-for-him-eau-de-toilette-spray-100-ml-8LB040500_000
+- Club de Nuit Lionheart: https://www.parfimo.it/armaf-club-de-nuit-lionheart-eau-de-parfum-uomo-100-ml/
+- Versace Eros: https://priveperfumes.com/products/perfume-versace-eros-edt-m-100-ml

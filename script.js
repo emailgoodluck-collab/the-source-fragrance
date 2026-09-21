@@ -1,17 +1,26 @@
 const business = { inquiryEmail: 'erhirhievera@gmail.com' };
 const products = [
-  { name: 'Al Haramain Amber Oud', family: 'Amber · woods · unisex', price: 140000, image: './assets/products/al-haramain-amber-oud.jpg' },
-  { name: 'Stronger With You', family: 'Amber · vanilla · spice', price: 230000, image: './assets/products/stronger-with-you.jpg' },
-  { name: 'Rasasi Hawas Ice', family: 'Aquatic · citrus · woods', price: 70000, image: './assets/products/rasasi-hawas-ice.jpg' },
-  { name: 'Club de Nuit Impériale', family: 'Floral · vanilla · musk', price: 65000, image: './assets/products/club-de-nuit-imperiale.jpg' },
-  { name: 'Reef 33', family: 'Saffron · rosemary · oud', price: 110000, image: './assets/products/reef-33.jpg' },
-  { name: 'Club de Nuit Intense Man', family: 'Citrus · woods · musk', price: 65000, image: './assets/products/club-de-nuit-intense-man.jpg' },
-  { name: "Supremacy Collector's Edition", family: 'Fruity · birch · ambergris', price: 110000, image: './assets/products/supremacy-collectors-edition.png' },
-  { name: 'Lattafa Vintage Radio', family: 'Plum · palo santo · oud', price: 55000, image: './assets/products/lattafa-vintage-radio.webp' },
-  { name: 'Afnan 9PM Night Out', family: 'Apple · vanilla · tonka', price: 75000, image: './assets/products/afnan-9pm.png' },
-  { name: 'Lattafa Nebras', family: 'Berries · cocoa · vanilla', price: 50000, image: './assets/products/lattafa-nebras.jpg' },
-  { name: 'Lattafa Maahir', family: 'Saffron · jasmine · vanilla', price: 45000, image: './assets/products/lattafa-maahir.jpg' },
-  { name: 'Afnan 9PM', family: 'Apple · vanilla · amber', price: 55000, image: './assets/products/afnan-9pm.png' }
+  { name: 'Al Haramain Amber Oud', family: 'Amber · woods · unisex', notes: 'Rosemary, citrus, cedar, amber', profile: 'A polished amber-wood signature with a bright opening and resinous warmth.', price: 140000, image: './assets/products/al-haramain-amber-oud.jpg' },
+  { name: 'Stronger With You', family: 'Amber · vanilla · spice', notes: 'Cardamom, chestnut, vanilla', profile: 'A sweet-spiced evening profile with a smooth gourmand finish.', price: 230000, image: './assets/products/stronger-with-you.jpg' },
+  { name: 'Rasasi Hawas Ice', family: 'Aquatic · citrus · woods', notes: 'Apple, bergamot, plum, driftwood', profile: 'A cool aromatic-aquatic choice for fresh, clean daily wear.', price: 70000, image: './assets/products/rasasi-hawas-ice.jpg' },
+  { name: 'Club de Nuit Impériale', family: 'Floral · vanilla · musk', notes: 'Litchi, Turkish rose, vanilla', profile: 'A luminous floral-gourmand with soft woods and an elegant finish.', price: 65000, image: './assets/products/club-de-nuit-imperiale.jpg' },
+  { name: 'Reef 33', family: 'Saffron · rosemary · oud', notes: 'Royal saffron, rosemary, oud', profile: 'A focused, smoky-spiced unisex scent for dressed-up moments.', price: 110000, image: './assets/products/reef-33.jpg' },
+  { name: 'Club de Nuit Intense Man', family: 'Citrus · woods · musk', notes: 'Pineapple, birch, musk', profile: 'A sharp citrus-fruit opening that settles into smoky woods.', price: 65000, image: './assets/products/club-de-nuit-intense-man.jpg' },
+  { name: "Supremacy Collector's Edition", family: 'Fruity · birch · ambergris', notes: 'Pineapple, apple, birch, ambergris', profile: 'A confident fruity-woody profile with a dry, modern backbone.', price: 110000, image: './assets/products/supremacy-collectors-edition.png' },
+  { name: 'Lattafa Vintage Radio', family: 'Plum · palo santo · oud', notes: 'Lavender, plum, palo santo', profile: 'A warm aromatic wood scent with a plush, slightly smoky core.', price: 55000, image: './assets/products/lattafa-vintage-radio.webp' },
+  { name: 'Afnan 9PM Night Out', family: 'Apple · vanilla · tonka', notes: 'Apple, cinnamon, vanilla, tonka', profile: 'A playful amber-vanilla option made for a warm night out.', price: 75000, image: './assets/products/afnan-9pm.png' },
+  { name: 'Lattafa Nebras', family: 'Berries · cocoa · vanilla', notes: 'Red berries, cocoa, vanilla', profile: 'A sweet, creamy berry-gourmand with a soft musky base.', price: 50000, image: './assets/products/lattafa-nebras.jpg' },
+  { name: 'Lattafa Maahir', family: 'Saffron · jasmine · vanilla', notes: 'Red berries, saffron, sandalwood', profile: 'A floral-amber composition with warm woods and vanilla depth.', price: 45000, image: './assets/products/lattafa-maahir.jpg' },
+  { name: 'Afnan 9PM', family: 'Apple · vanilla · amber', notes: 'Apple, cinnamon, vanilla, amber', profile: 'A familiar amber-vanilla evening scent with a bright fruity lift.', price: 55000, image: './assets/products/afnan-9pm.png' },
+  { name: 'Afnan Supremacy in Oud', family: 'Oud · spice · musk', notes: 'Saffron, nutmeg, oud, patchouli', profile: 'A deep spiced-oud expression for formal evenings and cooler air.', price: 80000, image: 'https://fragarabic.com/cdn/shop/files/Supremacy_in_Oud_Afnan_Eau_de_Parfum_Unisex.webp?v=1770130565&width=2048' },
+  { name: 'Afnan 9PM Rebel', family: 'Fruit · vanilla · woods', notes: 'Mandarin, pineapple, vanilla, caramel', profile: 'A red-framed fruity amber scent with a more playful, rebellious mood.', price: 65000, image: 'https://hiddensamples.com/cdn/shop/files/iklrf9g9_1000x1000.jpg?v=1740677541' },
+  { name: 'Afnan Supremacy Not Only Intense', family: 'Fruity · amber · moss', notes: 'Bergamot, apple, black currant, ambergris', profile: 'A crisp fruity-amber extrait with mossy, spicy depth.', price: 85000, image: 'https://us.afnan.com/cdn/shop/files/SupremacyIntense-Product-01.jpg?v=1775552949&width=2048' },
+  { name: 'Lattafa Badee Al Oud For Glory', family: 'Oud · patchouli · musk', notes: 'Saffron, lavender, oud, patchouli', profile: 'A bold black-and-gold oud profile with a dry, smoky warmth.', price: 45000, image: 'https://www.lattafa-usa.com/cdn/shop/files/1_5a4baf04-76ee-43c9-9751-4ac43d7aba74_grande.png?v=1747556003' },
+  { name: 'Gentleman Givenchy', family: 'Woody · floral · vanilla', notes: 'Pepper, lavender, iris, black vanilla', profile: 'A tailored woody-floral scent with a dark vanilla finish.', price: 200000, image: 'https://www.givenchybeauty.com/dw/image/v2/BBZW_PRD/on/demandware.static/-/Sites-givenchy-beauty-master/default/dwd065e813/images/P011117/3274872424982_P011117_GENTLEMAN-EDP-60ML_4.png?sh=800&strip=false&sw=800' },
+  { name: 'Lattafa Khamrah', family: 'Gourmand · spice · amber', notes: 'Cinnamon, dates, praline, vanilla', profile: 'A rich aromatic-spicy gourmand with a date-and-praline heart.', price: 45000, image: 'https://lattafa.com/wp-content/uploads/2024/05/2-60.jpg' },
+  { name: 'Valentino Uomo Born in Roma', family: 'Aromatic · vetiver · mineral', notes: 'Violet leaf, sage, vetiver, ginger', profile: 'A modern mineral-aromatic fragrance with a sharp Roman edge.', price: 220000, image: 'https://media.marionnaud.fr/medias/sys_master/prd-images/h69/hb6/12396181848094/prd-back-101736412_2000x2000/prd-back-101736412-2000x2000.png' },
+  { name: 'Club de Nuit Lionheart', family: 'Tobacco · honey · vanilla', notes: 'Lavender, vanilla, honey, tobacco', profile: 'A warm sweet tobacco scent with a plush, confident finish.', price: 75000, image: 'https://www.parfimo.it/data/cache/thumb_min500_max1000-min500_max1000-12/products/504665/1749034836/armaf-club-de-nuit-lionheart-eau-de-parfum-uomo-100-ml-626793.jpg' },
+  { name: 'Versace Eros', family: 'Aromatic · vanilla · woods', notes: 'Mint, green apple, tonka, vanilla', profile: 'A vivid fresh-sweet classic with citrus energy and a warm woody base.', price: 150000, image: 'https://priveperfumes.com/cdn/shop/files/perfume-versace-eros-edt-m-100-ml-1-prive-perfumes.webp?v=1776856081&width=2000' }
 ].map(product => ({ ...product, stock: 'in-stock', status: 'Available now' }));
 
 const grid = document.querySelector('#product-grid');
@@ -22,7 +31,7 @@ const inquiryDialog = document.querySelector('#inquiry-dialog');
 const money = new Intl.NumberFormat('en-NG', { style: 'currency', currency: 'NGN', maximumFractionDigits: 0 });
 
 function render(filter = 'all') {
-  grid.innerHTML = products.filter(product => filter === 'all' || product.stock === filter).map(product => `<article class="product-card product-card-image"><img class="product-image" src="${product.image}" alt="${product.name} perfume bottle" loading="lazy" /><button data-add-product="${product.name}" aria-label="Add ${product.name} to cart">+</button><div class="product-meta"><p>${product.family}</p><h3>${product.name}</h3><div><span class="price">${money.format(product.price)}</span><span>Add to cart ↗</span></div></div></article>`).join('');
+  grid.innerHTML = products.filter(product => filter === 'all' || product.stock === filter).map(product => `<article class="product-card product-card-image"><img class="product-image" src="${product.image}" alt="${product.name} perfume bottle" loading="lazy" /><button data-add-product="${product.name}" aria-label="Add ${product.name} to cart">+</button><div class="product-meta"><p>${product.family}</p><h3>${product.name}</h3><p class="product-notes">${product.notes}</p><p class="product-bio">${product.profile}</p><div><span class="price">${money.format(product.price)}</span><span>Add to cart ↗</span></div></div></article>`).join('');
 }
 
 function renderCart() {
